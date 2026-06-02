@@ -1,0 +1,130 @@
+{
+    "mall_info": {
+        "name": "Lima Shopping Center",
+        "location": "San Isidro, Lima",
+        "opening_hours": "10:00 AM - 10:00 PM",
+        "phone": "+51 1 2345678",
+        "email": "info@limashopping.com"
+    },
+    "floors": {
+        "Floor 1": {
+            "description": "Main floor with food court and casual stores",
+            "sections": [
+                "Food Court",
+                "Fashion",
+                "Electronics"
+            ]
+        },
+        "Floor 2": {
+            "description": "Premium brands and department stores",
+            "sections": [
+                "Luxury Brands",
+                "Premium Fashion",
+                "Accessories"
+            ]
+        },
+        "Floor 3": {
+            "description": "Entertainment and services",
+            "sections": [
+                "Cinema",
+                "Gym",
+                "Spa",
+                "Kids Area"
+            ]
+        }
+    },
+    "stores": [
+        {
+            "id": 1,
+            "name": "Nike Store",
+            "floor": "2",
+            "section": "Premium Fashion",
+            "hours": "10:00 AM - 10:00 PM",
+            "phone": "+51 1 2345678",
+            "category": "Fashion",
+            "description": "Official Nike store with latest sportswear and footwear"
+        },
+        {
+            "id": 2,
+            "name": "McDonald's",
+            "floor": "1",
+            "section": "Food Court",
+            "hours": "9:00 AM - 11:00 PM",
+            "phone": "+51 1 8765432",
+            "category": "Food",
+            "description": "Fast food restaurant with seating area for 100+ people"
+        },
+        {
+            "id": 3,
+            "name": "Starbucks Coffee",
+            "floor": "2",
+            "section": "Premium Fashion",
+            "hours": "8:00 AM - 9:00 PM",
+            "phone": "+51 1 5555555",
+            "category": "Beverages",
+            "description": "Premium coffee shop with WiFi available"
+        },
+        {
+            "id": 4,
+            "name": "Cinemark Cinema",
+            "floor": "3",
+            "section": "Entertainment",
+            "hours": "12:00 PM - 11:00 PM",
+            "phone": "+51 1 9999999",
+            "category": "Entertainment",
+            "description": "8 screen cinema with 4K projection and premium sound"
+        },
+        {
+            "id": 5,
+            "name": "Zara Fashion",
+            "floor": "2",
+            "section": "Premium Fashion",
+            "hours": "10:00 AM - 10:00 PM",
+            "phone": "+51 1 3333333",
+            "category": "Fashion",
+            "description": "Contemporary fashion brand with seasonal collections"
+        }
+    ],
+    "promotions": [
+        {
+            "store": "Nike Store",
+            "promotion": "30% off on selected sportswear this week",
+            "valid_until": "2026-05-29"
+        },
+        {
+            "store": "McDonald's",
+            "promotion": "Buy 1 Get 1 Free on combo meals",
+            "valid_until": "2026-05-25"
+        },
+        {
+            "store": "Starbucks Coffee",
+            "promotion": "Free upgrade to large size on any beverage",
+            "valid_until": "2026-05-28"
+        },
+        {
+            "store": "Zara Fashion",
+            "promotion": "Summer collection launch with 20% discount",
+            "valid_until": "2026-06-15"
+        }
+    ],
+    "services": [
+        {
+            "name": "Parking",
+            "floor": "Basement",
+            "description": "1000+ parking spaces with 2 hours free for shoppers",
+            "hours": "24/7"
+        },
+        {
+            "name": "Information Desk",
+            "floor": "1",
+            "description": "Get help with directions and mall services",
+            "hours": "10:00 AM - 9:00 PM"
+        },
+        {
+            "name": "ATM Service",
+            "floor": "Multiple",
+            "description": "ATM machines available on all floors",
+            "hours": "24/7"
+        }
+    ]
+}
